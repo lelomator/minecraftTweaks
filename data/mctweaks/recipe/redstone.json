@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:redstone"
+    },
+    "result": {
+      "id": "minecraft:gunpowder"
+    },
+    "experience": 5,
+    "cookingtime": 60
+  }
+  

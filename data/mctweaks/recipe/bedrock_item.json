@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:obsidian"
+    },
+    "B": {
+      "item": "minecraft:stone_pickaxe"
+    }
+  },
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 1000000000
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:custom_name": "{\"color\":\"red\",\"italic\":false,\"text\":\"Bedrock Pickaxe\"}"
+    }
+  }
+}
