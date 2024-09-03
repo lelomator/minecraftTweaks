@@ -1,0 +1,3 @@
+execute as @e[type=item] at @s unless entity @s[tag=cost_removed] if entity @s[tag=cost_2] if block ~ ~-1 ~ diamond_block run data merge entity @s {Item:{count:1, components:{"minecraft:lore":['{"italic":false,"text":"Repair Cost removed!"}'],"minecraft:rarity":"uncommon","minecraft:repair_cost":0}}}
+execute as @e[type=item] at @s unless entity @s[tag=cost_removed] if entity @s[tag=cost_2] if block ~ ~-1 ~ diamond_block run tellraw @a[distance=..5] {"bold":true,"color":"green","text":"Enchant cost/Too expensive removed!"}
+execute as @e[type=item] at @s unless entity @s[tag=cost_removed] if block ~ ~-1 ~ diamond_block run tag @s add cost_removed
